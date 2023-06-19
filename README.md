@@ -1,60 +1,13 @@
-# code-challenge1
+# code-challange
+ 
+ The page contains three javascript.
 
-challenge 1: Student Grade Generator (Toy Problem)
+CHALLENGE1
 
-//A> 79
-//B-60 to 79
-//C-49 to 59
-//D-40 to 49
-//E-less 40
+ javascript file contains a student grade generator.it helps in calculating students marks
 
-let score = prompt("Enter the score: ");
-score = Number(score);
-let grade;
-if (score >= 80) 
-{grade = "A";} 
-else if (score >= 60 && score <= 79) {
-grade = "B";
-} else if (score >= 50 && score <= 59) {
-grade = "C";
-} else if (score >= 40 && score <= 49) {
-grade = "D";
-} else {
-grade = "E";
-}
+ CHALLENGE-2
+ contains javascript file containing Speed Detector (Toy Problem) it helps to calculate and check the speed.
 
-// Print the grade
-console.log(`The grade is ${grade}.`);
-
-
-
-
-
-challenge2:speed Detector (Toy Problem)
-
-let speed = prompt("Enter the speed of the car: ");
-const limit = 70;
-const factor = 5;
-if (speed <= limit) {
-console.log("Ok");
-} else {
-let points = Math.floor((speed - limit) / factor);
-console.log(`You have ${points} demerit points.`);
-}
-
-
-
-Challenge 3: Net Salary Calculator (Toy Problem)
-
-const tax_rate =
-const nhif_rate = 
-const nssf_rate = 
-let basic_salary = 
-let benefits = 
-basic_salary =
-benefits =  
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
+ CHALLENGE-3
+ contains javascript file containing,Net Salary Calculator (Toy Problem)it helps tell us what the net- is and give the correct value of net salary
